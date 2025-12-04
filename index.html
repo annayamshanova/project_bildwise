@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <header class="header center">
+        <a href="index.html" class="logo">
+            <img src="img/Logo.png" alt="BuildWise">
+        </a>
+
+        <nav class="nav">
+            <a href="#main" class="nav__link nav__link_is-active">Main</a>
+            <a href="#portfolio" class="nav__link">Portfolio</a>
+            <a href="#partners" class="nav__link">Price</a>
+            <a href="#certifications" class="nav__link">Certifications</a>
+            <a href="#contacts" class="nav__link">Contacts</a>
+        </nav>
+
+        <a href="tel:+447755555764" class="header__phone">
+            (+44) 7755-555-764
+        </a>
+    </header>
+
+    <main>
+        <section class="hero center" id="main">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Construction<br>
+                    services
+                </h1>
+                <p class="hero__text">
+                    From residential renovations to large-scale commercial projects —
+                    we bring craftsmanship, reliability, and precision to every build.
+                </p>
+                <button class="button button_theme-primary button_size-l" type="button" data-open-quote>Request a free
+                    quote
+                </button>
+
+            </div>
+
+            <div class="hero__media">
+                <img class="hero__img" src="img/hero-building.png" alt="Modern building">
+            </div>
+
+            <div class="hero__gradient"></div>
+        </section>
+
+        <section class="about center" id="aboutus">
+            <div class="about__content">
+
+                <h2 class="about__title">About us</h2>
+                <p class="about__text">
+                    At BuildWise, we believe every project is more than bricks and mortar — it’s a vision brought to
+                    life.
+                    For over 20 years, we’ve been delivering high-quality construction solutions for homeowners,
+                    businesses, and developers.
+                    <br><br>
+                    Our team combines expert craftsmanship, innovative design, and uncompromising safety standards to
+                    ensure every build is done right the first time.
+                    From initial planning to the final walkthrough, we work closely with our clients, keeping
+                    communication clear and expectations aligned.
+                    <br><br>
+                    Our mission is simple: to build spaces that inspire, serve, and last for generations.
+                </p>
+
+                <button class="button button_theme-primary button_size-l">
+                    More about us
+                </button>
+
+            </div>
+
+            <div class="about__photo">
+                <img class="about__img" src="img/about__us.png" alt="Modern house">
+            </div>
+        </section>
+
+        <section class="portfolio center" id="portfolio">
+            <div class="portfolio__inner">
+                <div class="portfolio__header">
+                    <h2 class="portfolio__title">Our portfolio</h2>
+                    <p class="portfolio__subtitle">
+                        From sleek modern homes to large-scale commercial complexes, our
+                        projects reflect the skill, precision, and dedication we bring to
+                        every build. Each one tells a story of careful planning, expert
+                        execution, and lasting quality.
+                    </p>
+                </div>
+
+                <div class="portfolio__slider">
+                    <button class="portfolio__arrow portfolio__arrow_prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="20" viewBox="0 0 12 20" fill="none">
+                            <path
+                                d="M9.9999 20L11.7749 18.225L3.5499 10L11.7749 1.775L9.9999 0L-9.72748e-05 10L9.9999 20Z"
+                                fill="#FFF" />
+                        </svg>
+                    </button>
+
+                    <div class="portfolio__track-wrapper">
+                        <div class="portfolio__track" id="portfolioTrack">
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_1.png" alt="Metro Office Hub" class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Metro Office Hub</h3>
+                                    <p class="portfolio__slide-text">
+                                        Complete office fit-out for a 10,000 sq ft corporate headquarters.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_2.png" alt="Riverside Heights" class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Riverside Heights</h3>
+                                    <p class="portfolio__slide-text">
+                                        Luxury residential complex with panoramic views and eco-friendly design.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_3.png" alt="Hillsdale Villa Renovation"
+                                    class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Hillsdale Villa Renovation</h3>
+                                    <p class="portfolio__slide-text">
+                                        Full interior and exterior remodel blending classic charm
+                                        with modern finishes.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_4.png" alt="Hillside Villa Restoration"
+                                    class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Hillside Villa Restoration</h3>
+                                    <p class="portfolio__slide-text">
+                                        Complete restoration of a heritage property, blending
+                                        classic architecture with modern comforts.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_5.png" alt="Riverside Heights Residences"
+                                    class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Riverside Heights Residences</h3>
+                                    <p class="portfolio__slide-text">
+                                        A modern riverside apartment complex with energy-efficient
+                                        design and panoramic city views.
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="portfolio__slide">
+                                <img src="img/portfoliocard_6.png" alt="Maple Grove Townhomes"
+                                    class="portfolio__slide-img">
+                                <div class="portfolio__slide-info">
+                                    <h3 class="portfolio__slide-title">Maple Grove Townhomes</h3>
+                                    <p class="portfolio__slide-text">
+                                        A stylish suburban development offering comfort, community,
+                                        and convenience.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <button class="portfolio__arrow portfolio__arrow_next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z"
+                                fill="#FFF" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="portfolio__controls">
+                    <div id="portfolioProgressText" class="portfolio__progress-text">01/02</div>
+
+                    <div class="portfolio__progress-bar-wrapper">
+                        <div id="portfolioProgressBar" class="portfolio__progress-bar"></div>
+                    </div>
+                </div>
+
+                <button class="button button_theme-primary button_size-l portfolio__view-all">
+                    View full portfolio
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z" fill="#FFF" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <section class="certifications center" id="certifications">
+            <div class="certifications__inner">
+
+                <div class="certifications__header">
+                    <h2 class="certifications__heading">Certifications & credentials</h2>
+                    <p class="certifications__text">We believe great construction starts with strong foundations — not
+                        just in buildings, but in professional standards. Our team holds industry-recognized
+                        certifications that ensure your project meets the highest levels of safety, quality, and
+                        compliance.</p>
+                </div>
+                <div class="certifications__content">
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">Fully Licensed & Insured</h4>
+                                <p class="certifications__text__main">Commitment to quality management in every process.
+                                </p>
+                                <p class="certifications__text__sub">2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <button class="button__certifications__winner">Winner</button>
+                                <div class="certifications__icon">
+                                    <svg width="59" height="77" viewBox="0 0 59 77" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.8083 42.9L24.0167 32.45L15.5833 25.6667H26.0333L29.3333 15.4L32.6333 25.6667H43.0833L34.5583 32.45L37.7667 42.9L29.3333 36.3917L20.8083 42.9ZM7.33333 77V48.675C5.01111 46.1083 3.20833 43.175 1.925 39.875C0.641667 36.575 0 33.0611 0 29.3333C0 21.1444 2.84167 14.2083 8.525 8.525C14.2083 2.84167 21.1444 0 29.3333 0C37.5222 0 44.4583 2.84167 50.1417 8.525C55.825 14.2083 58.6667 21.1444 58.6667 29.3333C58.6667 33.0611 58.025 36.575 56.7417 39.875C55.4583 43.175 53.6556 46.1083 51.3333 48.675V77L29.3333 69.6667L7.33333 77ZM29.3333 51.3333C35.4444 51.3333 40.6389 49.1944 44.9167 44.9167C49.1944 40.6389 51.3333 35.4444 51.3333 29.3333C51.3333 23.2222 49.1944 18.0278 44.9167 13.75C40.6389 9.47222 35.4444 7.33333 29.3333 7.33333C23.2222 7.33333 18.0278 9.47222 13.75 13.75C9.47222 18.0278 7.33333 23.2222 7.33333 29.3333C7.33333 35.4444 9.47222 40.6389 13.75 44.9167C18.0278 49.1944 23.2222 51.3333 29.3333 51.3333ZM14.6667 66.0917L29.3333 62.3333L44 66.0917V54.725C41.8611 55.9472 39.5542 56.9097 37.0792 57.6125C34.6042 58.3153 32.0222 58.6667 29.3333 58.6667C26.6444 58.6667 24.0625 58.3153 21.5875 57.6125C19.1125 56.9097 16.8056 55.9472 14.6667 54.725V66.0917Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">ISO 9001:2015 Certified</h4>
+                                <p class="certifications__text__main">Commitment to quality management in every process.
+                                </p>
+                                <p class="certifications__text__sub">2023, 2024, 2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <button class="button__certifications__winner">Winner</button>
+                                <div class="certifications__icon">
+                                    <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M36.6667 66C41.25 66 45.1458 64.3958 48.3542 61.1875C51.5625 57.9792 53.1667 54.0833 53.1667 49.5C53.1667 44.9167 51.5625 41.0208 48.3542 37.8125C45.1458 34.6042 41.25 33 36.6667 33C32.0833 33 28.1875 34.6042 24.9792 37.8125C21.7708 41.0208 20.1667 44.9167 20.1667 49.5C20.1667 54.0833 21.7708 57.9792 24.9792 61.1875C28.1875 64.3958 32.0833 66 36.6667 66ZM25.9417 28.2333C27.1639 27.5611 28.4625 27.0264 29.8375 26.6292C31.2125 26.2319 32.6028 25.9722 34.0083 25.85L24.75 7.33333H15.5833L25.9417 28.2333ZM47.3917 28.2333L57.8417 7.33333H48.5833L40.7917 22.9167L42.5333 26.4C43.3889 26.6444 44.2139 26.9042 45.0083 27.1792C45.8028 27.4542 46.5972 27.8056 47.3917 28.2333ZM16.1333 61.6C15.0944 59.8278 14.2847 57.9181 13.7042 55.8708C13.1236 53.8236 12.8333 51.7 12.8333 49.5C12.8333 47.3 13.1236 45.1764 13.7042 43.1292C14.2847 41.0819 15.0944 39.1722 16.1333 37.4C13.5667 38.2556 11.4583 39.7681 9.80833 41.9375C8.15833 44.1069 7.33333 46.6278 7.33333 49.5C7.33333 52.3722 8.15833 54.8931 9.80833 57.0625C11.4583 59.2319 13.5667 60.7444 16.1333 61.6ZM57.2 61.6C59.7667 60.7444 61.875 59.2319 63.525 57.0625C65.175 54.8931 66 52.3722 66 49.5C66 46.6278 65.175 44.1069 63.525 41.9375C61.875 39.7681 59.7667 38.2556 57.2 37.4C58.2389 39.1722 59.0486 41.0819 59.6292 43.1292C60.2097 45.1764 60.5 47.3 60.5 49.5C60.5 51.7 60.2097 53.8236 59.6292 55.8708C59.0486 57.9181 58.2389 59.8278 57.2 61.6ZM36.6667 73.3333C34.2222 73.3333 31.8847 72.9819 29.6542 72.2792C27.4236 71.5764 25.3611 70.6139 23.4667 69.3917C22.9167 69.5139 22.3667 69.5903 21.8167 69.6208C21.2667 69.6514 20.6861 69.6667 20.075 69.6667C14.5139 69.6667 9.77778 67.7111 5.86667 63.8C1.95556 59.8889 0 55.1528 0 49.5917C0 44.275 1.77222 39.7222 5.31667 35.9333C8.86111 32.1444 13.2306 30.0361 18.425 29.6083L3.66667 0H29.3333L36.6667 14.6667L44 0H69.6667L55 29.425C60.1944 29.9139 64.5486 32.0528 68.0625 35.8417C71.5764 39.6306 73.3333 44.1833 73.3333 49.5C73.3333 55.1222 71.3778 59.8889 67.4667 63.8C63.5556 67.7111 58.7889 69.6667 53.1667 69.6667C52.6167 69.6667 52.0514 69.6514 51.4708 69.6208C50.8903 69.5903 50.325 69.5139 49.775 69.3917C47.8806 70.6139 45.8333 71.5764 43.6333 72.2792C41.4333 72.9819 39.1111 73.3333 36.6667 73.3333ZM29.8833 59.5833L32.45 51.2417L25.6667 46.3833H34.0083L36.6667 37.5833L39.325 46.3833H47.6667L40.8833 51.2417L43.45 59.5833L36.6667 54.45L29.8833 59.5833Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">OSHA Safety Certified</h4>
+                                <p class="certifications__text__main">Ensuring safe practices on every job site.</p>
+                                <p class="certifications__text__sub">2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <div class="certifications__icon">
+                                    <svg width="59" height="77" viewBox="0 0 59 77" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.8083 42.9L24.0167 32.45L15.5833 25.6667H26.0333L29.3333 15.4L32.6333 25.6667H43.0833L34.5583 32.45L37.7667 42.9L29.3333 36.3917L20.8083 42.9ZM7.33333 77V48.675C5.01111 46.1083 3.20833 43.175 1.925 39.875C0.641667 36.575 0 33.0611 0 29.3333C0 21.1444 2.84167 14.2083 8.525 8.525C14.2083 2.84167 21.1444 0 29.3333 0C37.5222 0 44.4583 2.84167 50.1417 8.525C55.825 14.2083 58.6667 21.1444 58.6667 29.3333C58.6667 33.0611 58.025 36.575 56.7417 39.875C55.4583 43.175 53.6556 46.1083 51.3333 48.675V77L29.3333 69.6667L7.33333 77ZM29.3333 51.3333C35.4444 51.3333 40.6389 49.1944 44.9167 44.9167C49.1944 40.6389 51.3333 35.4444 51.3333 29.3333C51.3333 23.2222 49.1944 18.0278 44.9167 13.75C40.6389 9.47222 35.4444 7.33333 29.3333 7.33333C23.2222 7.33333 18.0278 9.47222 13.75 13.75C9.47222 18.0278 7.33333 23.2222 7.33333 29.3333C7.33333 35.4444 9.47222 40.6389 13.75 44.9167C18.0278 49.1944 23.2222 51.3333 29.3333 51.3333ZM14.6667 66.0917L29.3333 62.3333L44 66.0917V54.725C41.8611 55.9472 39.5542 56.9097 37.0792 57.6125C34.6042 58.3153 32.0222 58.6667 29.3333 58.6667C26.6444 58.6667 24.0625 58.3153 21.5875 57.6125C19.1125 56.9097 16.8056 55.9472 14.6667 54.725V66.0917Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">LEED Accredited Professionals</h4>
+                                <p class="certifications__text__main">Expertise in sustainable, eco-friendly building.
+                                </p>
+                                <p class="certifications__text__sub">2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <div class="certifications__icon">
+                                    <svg width="59" height="77" viewBox="0 0 59 77" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.8083 42.9L24.0167 32.45L15.5833 25.6667H26.0333L29.3333 15.4L32.6333 25.6667H43.0833L34.5583 32.45L37.7667 42.9L29.3333 36.3917L20.8083 42.9ZM7.33333 77V48.675C5.01111 46.1083 3.20833 43.175 1.925 39.875C0.641667 36.575 0 33.0611 0 29.3333C0 21.1444 2.84167 14.2083 8.525 8.525C14.2083 2.84167 21.1444 0 29.3333 0C37.5222 0 44.4583 2.84167 50.1417 8.525C55.825 14.2083 58.6667 21.1444 58.6667 29.3333C58.6667 33.0611 58.025 36.575 56.7417 39.875C55.4583 43.175 53.6556 46.1083 51.3333 48.675V77L29.3333 69.6667L7.33333 77ZM29.3333 51.3333C35.4444 51.3333 40.6389 49.1944 44.9167 44.9167C49.1944 40.6389 51.3333 35.4444 51.3333 29.3333C51.3333 23.2222 49.1944 18.0278 44.9167 13.75C40.6389 9.47222 35.4444 7.33333 29.3333 7.33333C23.2222 7.33333 18.0278 9.47222 13.75 13.75C9.47222 18.0278 7.33333 23.2222 7.33333 29.3333C7.33333 35.4444 9.47222 40.6389 13.75 44.9167C18.0278 49.1944 23.2222 51.3333 29.3333 51.3333ZM14.6667 66.0917L29.3333 62.3333L44 66.0917V54.725C41.8611 55.9472 39.5542 56.9097 37.0792 57.6125C34.6042 58.3153 32.0222 58.6667 29.3333 58.6667C26.6444 58.6667 24.0625 58.3153 21.5875 57.6125C19.1125 56.9097 16.8056 55.9472 14.6667 54.725V66.0917Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">Licensed General Contractor</h4>
+                                <p class="certifications__text__main">Recognized by industry leaders.</p>
+                                <p class="certifications__text__sub">2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <div class="certifications__icon">
+                                    <svg width="59" height="77" viewBox="0 0 59 77" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.8083 42.9L24.0167 32.45L15.5833 25.6667H26.0333L29.3333 15.4L32.6333 25.6667H43.0833L34.5583 32.45L37.7667 42.9L29.3333 36.3917L20.8083 42.9ZM7.33333 77V48.675C5.01111 46.1083 3.20833 43.175 1.925 39.875C0.641667 36.575 0 33.0611 0 29.3333C0 21.1444 2.84167 14.2083 8.525 8.525C14.2083 2.84167 21.1444 0 29.3333 0C37.5222 0 44.4583 2.84167 50.1417 8.525C55.825 14.2083 58.6667 21.1444 58.6667 29.3333C58.6667 33.0611 58.025 36.575 56.7417 39.875C55.4583 43.175 53.6556 46.1083 51.3333 48.675V77L29.3333 69.6667L7.33333 77ZM29.3333 51.3333C35.4444 51.3333 40.6389 49.1944 44.9167 44.9167C49.1944 40.6389 51.3333 35.4444 51.3333 29.3333C51.3333 23.2222 49.1944 18.0278 44.9167 13.75C40.6389 9.47222 35.4444 7.33333 29.3333 7.33333C23.2222 7.33333 18.0278 9.47222 13.75 13.75C9.47222 18.0278 7.33333 23.2222 7.33333 29.3333C7.33333 35.4444 9.47222 40.6389 13.75 44.9167C18.0278 49.1944 23.2222 51.3333 29.3333 51.3333ZM14.6667 66.0917L29.3333 62.3333L44 66.0917V54.725C41.8611 55.9472 39.5542 56.9097 37.0792 57.6125C34.6042 58.3153 32.0222 58.6667 29.3333 58.6667C26.6444 58.6667 24.0625 58.3153 21.5875 57.6125C19.1125 56.9097 16.8056 55.9472 14.6667 54.725V66.0917Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="certifications__card">
+                        <div class="certifications__info">
+                            <div class="certifications__info__top">
+                                <h4 class="certifications__title">OSHA Safety Trained</h4>
+                                <p class="certifications__text__main">Compliant with all local and national regulations.
+                                </p>
+                                <p class="certifications__text__sub">2023, 2024, 2025</p>
+                            </div>
+                            <div class="certifications__info__bottom">
+                                <button class="button__certifications__winner">Winner</button>
+                                <div class="certifications__icon">
+                                    <svg width="74" height="74" viewBox="0 0 74 74" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M36.6667 66C41.25 66 45.1458 64.3958 48.3542 61.1875C51.5625 57.9792 53.1667 54.0833 53.1667 49.5C53.1667 44.9167 51.5625 41.0208 48.3542 37.8125C45.1458 34.6042 41.25 33 36.6667 33C32.0833 33 28.1875 34.6042 24.9792 37.8125C21.7708 41.0208 20.1667 44.9167 20.1667 49.5C20.1667 54.0833 21.7708 57.9792 24.9792 61.1875C28.1875 64.3958 32.0833 66 36.6667 66ZM25.9417 28.2333C27.1639 27.5611 28.4625 27.0264 29.8375 26.6292C31.2125 26.2319 32.6028 25.9722 34.0083 25.85L24.75 7.33333H15.5833L25.9417 28.2333ZM47.3917 28.2333L57.8417 7.33333H48.5833L40.7917 22.9167L42.5333 26.4C43.3889 26.6444 44.2139 26.9042 45.0083 27.1792C45.8028 27.4542 46.5972 27.8056 47.3917 28.2333ZM16.1333 61.6C15.0944 59.8278 14.2847 57.9181 13.7042 55.8708C13.1236 53.8236 12.8333 51.7 12.8333 49.5C12.8333 47.3 13.1236 45.1764 13.7042 43.1292C14.2847 41.0819 15.0944 39.1722 16.1333 37.4C13.5667 38.2556 11.4583 39.7681 9.80833 41.9375C8.15833 44.1069 7.33333 46.6278 7.33333 49.5C7.33333 52.3722 8.15833 54.8931 9.80833 57.0625C11.4583 59.2319 13.5667 60.7444 16.1333 61.6ZM57.2 61.6C59.7667 60.7444 61.875 59.2319 63.525 57.0625C65.175 54.8931 66 52.3722 66 49.5C66 46.6278 65.175 44.1069 63.525 41.9375C61.875 39.7681 59.7667 38.2556 57.2 37.4C58.2389 39.1722 59.0486 41.0819 59.6292 43.1292C60.2097 45.1764 60.5 47.3 60.5 49.5C60.5 51.7 60.2097 53.8236 59.6292 55.8708C59.0486 57.9181 58.2389 59.8278 57.2 61.6ZM36.6667 73.3333C34.2222 73.3333 31.8847 72.9819 29.6542 72.2792C27.4236 71.5764 25.3611 70.6139 23.4667 69.3917C22.9167 69.5139 22.3667 69.5903 21.8167 69.6208C21.2667 69.6514 20.6861 69.6667 20.075 69.6667C14.5139 69.6667 9.77778 67.7111 5.86667 63.8C1.95556 59.8889 0 55.1528 0 49.5917C0 44.275 1.77222 39.7222 5.31667 35.9333C8.86111 32.1444 13.2306 30.0361 18.425 29.6083L3.66667 0H29.3333L36.6667 14.6667L44 0H69.6667L55 29.425C60.1944 29.9139 64.5486 32.0528 68.0625 35.8417C71.5764 39.6306 73.3333 44.1833 73.3333 49.5C73.3333 55.1222 71.3778 59.8889 67.4667 63.8C63.5556 67.7111 58.7889 69.6667 53.1667 69.6667C52.6167 69.6667 52.0514 69.6514 51.4708 69.6208C50.8903 69.5903 50.325 69.5139 49.775 69.3917C47.8806 70.6139 45.8333 71.5764 43.6333 72.2792C41.4333 72.9819 39.1111 73.3333 36.6667 73.3333ZM29.8833 59.5833L32.45 51.2417L25.6667 46.3833H34.0083L36.6667 37.5833L39.325 46.3833H47.6667L40.8833 51.2417L43.45 59.5833L36.6667 54.45L29.8833 59.5833Z"
+                                            fill="white" />
+                                    </svg>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="button button_theme-primary button_size-l portfolio__view-all">
+                    View All Certifications
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z" fill="#FFF" />
+                    </svg>
+                </button>
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="partners center" id="partners">
+            <div class="partners__inner center">
+                <div class="partners__header">
+                    <h2 class="partners__heading">Trusted partners</h2>
+                    <p class="partners__text">
+                        We believe great construction happens through strong partnerships. Over the years, we’ve teamed
+                        up with leading suppliers, architects, and industry organizations to ensure every project gets
+                        the
+                        best materials, expertise, and technology available.
+                    </p>
+                </div>
+
+                <div class="partners__slider">
+                    <button class="partners__arrow partners__arrow_prev">
+                        <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.9999 20L11.7749 18.225L3.5499 10L11.7749 1.775L9.9999 0L-9.72748e-05 10L9.9999 20Z"
+                                fill="#FFF" />
+                        </svg>
+                    </button>
+
+                    <div class="partners__slider-track-wrapper">
+                        <div class="partners__slider-track" id="partnersSliderTrack">
+
+                            <article class="partners__slide">
+                                <div class="partners__media">
+                                    <img src="img/partners_1.png" alt="CityPoint Retail Center">
+                                </div>
+                                <div class="partners__info">
+                                    <h3 class="partners__project-name">CityPoint Retail Center</h3>
+                                    <p class="partners__project-text">
+                                        From sleek modern homes to large-scale commercial complexes, our projects
+                                        reflect the
+                                        skill, precision, and dedication we bring to every build. Each one tells a story
+                                        of careful
+                                        planning, expert execution, and lasting quality.
+                                    </p>
+                                </div>
+                            </article>
+
+
+                            <article class="partners__slide">
+                                <div class="partners__media">
+                                    <img src="img/partners_2.png" alt="Skyline Penthouse Remode">
+                                </div>
+                                <div class="partners__info">
+                                    <h3 class="partners__project-name">Skyline Penthouse Remode</h3>
+                                    <p class="partners__project-text">
+                                        A stylish suburban development offering comfort, community, and convenience.
+                                        Complete
+                                        restoration of a heritage property, blending classic architecture with modern
+                                        comforts.
+                                    </p>
+                                </div>
+                            </article>
+
+
+                            <article class="partners__slide">
+                                <div class="partners__media">
+                                    <img src="img/partners_3.png" alt="Oakwood Family Estate">
+                                </div>
+                                <div class="partners__info">
+                                    <h3 class="partners__project-name">Oakwood Family Estate</h3>
+                                    <p class="partners__project-text">
+                                        Luxury interior transformation with premium finishes and smart-home integration.
+                                        A modern
+                                        riverside apartment complex with energy-efficient design and panoramic city
+                                        views.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <button class="partners__arrow partners__arrow_next">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z"
+                                fill="#FFF" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="partners__controls">
+
+                    <div class="partners__progress-text">
+                        <span class="partners__progress-current">01</span>/<span
+                            class="partners__progress-total">03</span>
+                    </div>
+
+                    <div class="partners__progress-bar-wrapper">
+                        <div class="partners__progress-bar" id="partnersProgressBar"></div>
+                    </div>
+                </div>
+
+                <button class="button button_theme-primary button_size-m partners__view-all">
+                    View Full Portfolio
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2L18.025 12L8.025 22Z" fill="#FFF" />
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+        <section class="faq center" id="faq">
+            <div class="faq__inner">
+                <div class="faq__left">
+                    <h2 class="faq__heading">
+                        Frequently asked<br>questions
+                    </h2>
+                </div>
+
+                <div class="faq__right">
+                    <div class="faq__list">
+
+                        <details class="faq__item" data-faq-item>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    What types of construction projects do you handle?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    We work on residential homes, commercial buildings, office
+                                    fit-outs, renovations, and exterior upgrades — from small
+                                    improvements to full ground-up construction.
+                                </p>
+                            </div>
+                        </details>
+
+
+                        <details class="faq__item" data-faq-item open>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    How long will my project take?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    Project timelines vary depending on scope and complexity.
+                                    We’ll provide a detailed schedule after our initial
+                                    consultation and keep you updated at every stage.
+                                </p>
+                            </div>
+                        </details>
+
+
+                        <details class="faq__item" data-faq-item>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    Do you provide cost estimates before starting?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    Yes. We prepare a detailed estimate that includes labor,
+                                    materials, and approximate timelines so you understand
+                                    the investment before any work begins.
+                                </p>
+                            </div>
+                        </details>
+
+
+                        <details class="faq__item" data-faq-item>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    Are you licensed and insured?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    Absolutely. Our team holds all required licenses and
+                                    carries comprehensive insurance to protect both you and
+                                    your property throughout the project.
+                                </p>
+                            </div>
+                        </details>
+
+
+                        <details class="faq__item" data-faq-item>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    Can you work with my own architect or designer?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    Yes, we frequently collaborate with external architects
+                                    and designers. We’ll coordinate closely with them to keep
+                                    the project aligned with your vision and budget.
+                                </p>
+                            </div>
+                        </details>
+
+
+                        <details class="faq__item" data-faq-item>
+                            <summary class="faq__summary">
+                                <h4 class="faq__title">
+                                    Do you offer eco-friendly building options?
+                                </h4>
+                                <span class="faq__icon">
+                                    <span class="faq__icon-inner faq__icon-inner--down">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 13.2585L21.575 12.0752L16.0917 17.5585L10.6084 12.0752L9.42505 13.2585L16.0917 19.9252L22.7584 13.2585Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                    <span class="faq__icon-inner faq__icon-inner--up">
+                                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="32" height="32" rx="16" fill="#F7F8FA" />
+                                            <path
+                                                d="M22.7584 18.7415L21.575 19.9248L16.0917 14.4415L10.6084 19.9248L9.42505 18.7415L16.0917 12.0748L22.7584 18.7415Z"
+                                                fill="#052838" />
+                                        </svg>
+                                    </span>
+                                </span>
+                            </summary>
+                            <div class="faq__answer">
+                                <p class="faq__text">
+                                    We can incorporate energy-efficient materials, improved
+                                    insulation, low-VOC finishes, and other sustainable
+                                    solutions to reduce environmental impact and running
+                                    costs.
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta center" id="contacts">
+            <div class="cta__card">
+                <div class="cta__content">
+
+                    <div class="cta__content__top">
+                        <h2 class="cta__title">Start your project today!</h2>
+
+                        <div class="cta__text-group">
+                            <p class="cta__text">
+                                Tell us about your construction needs, and our team will get back to you with a detailed
+                                proposal.
+                            </p>
+                            <p class="cta__text">
+                                Once we receive your application, one of our project managers will contact you within 24
+                                hours to
+                                discuss your goals, budget, and next steps.
+                            </p>
+                        </div>
+                    </div>
+
+                    <form class="cta__form" action="#" method="post">
+                        <div class="cta__form-row">
+                            <label class="cta__field">
+                                <input class="cta__input" type="tel" name="phone" placeholder="Phone Number">
+                            </label>
+
+                            <button class="button button_theme-light button_size-m" type="submit">
+                                Submit
+                            </button>
+                        </div>
+
+                        <p class="cta__consent">
+                            *By clicking on the button, you agree to the privacy policy and give consent to the
+                            processing of your personal data.
+                        </p>
+                    </form>
+                </div>
+
+                <div class="cta__image-wrapper">
+                    <img class="cta__image" src="img/cta.png" alt="Modern residential building">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+  
+
+    <section class="myfooter center">
+        <div class="myfooter__inner">
+
+        </div>
+    </section>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
