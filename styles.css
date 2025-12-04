@@ -320,6 +320,8 @@ img {
     background-color: #FFFFFF;
 }
 
+
+
 .portfolio__slide-img {
     width: 100%;
     height: 400px;
@@ -332,6 +334,10 @@ img {
     padding: 15px 20px;
     background-color: var(--color-brand-primary);
     box-sizing: border-box;
+}
+
+.portfolio__slide-info:hover {
+     background-color: var(--color-brand-hover);
 }
 
 .portfolio__slide-title {
@@ -475,6 +481,10 @@ img {
     border-radius: 12px;
     background: var(--color-brand-primary);
     padding: 24px;
+}
+
+.certifications__card:hover {
+     background-color: var(--color-brand-hover);
 }
 
 .certifications__info {
@@ -661,6 +671,10 @@ img {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+}
+
+.partners__slide:hover {
+     background-color: var(--color-brand-hover);
 }
 
 .partners__media {
@@ -1005,10 +1019,206 @@ img {
 
 
 
+/* My Footer */
+
+.myfooter{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-top: 1px solid #D7DAE2;
+    background: #FFF;
+}
+
+.myfooter__inner{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+
+.myfooter__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 146px;
+}
+
+.logo__myfooter{
+    width: 152px;
+    height: 24px;
+}
+
+.logo__text{
+    color: var(--Secondary, #375360);
+    text-align: right;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.social__link{
+    width: 24px;
+    height: 24px;
+}
+
+.social__media{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.mylogo{
+    display: flex;
+    width: 263px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    align-self: stretch;
+    gap: 12px;
+}
+.myfooter__nav{
+    display: flex;
+    width: 546px;
+    align-items: flex-start;
+    gap: 86px;
+}
+.myfooter__linkmenu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.nav__link{
+    color: var(--Secondary, #375360);
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.myfooter__left {
+    display: flex;
+    width: 263px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.myfooter__cta-content{
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 547px;
+}
+
+.myfooter__cta-title{
+    color: #052838;
+    font-feature-settings: 'liga' off, 'clig' off;
+
+    
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.myfooter__cta-text{
+    color: #375360;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
 
 
 
+.myfooter__cta{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 547px;
+}
+
+.myfooter__cta-form{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 693px;
+}
+
+.myfooter__cta-input{
+    width: 435px;
+    height: 44px;
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+
+    border-radius: 8px;
+    border: 1px solid var(--Grayscale-300, #D7DAE2);
+}
+
+.myfooter__cta-input:hover{
+    border-radius: 12px;
+    border: 1px solid var(--Brand-Primary, #052838);
+    background: var(--Brand-Hover, #0C3D54);
+    color: #999EAD;
+}
+
+.myfooter__cta-input:focus{
+    outline: none;
+    border-radius: 12px;
+    border: 1px solid var(--Accent, #3F73FF);
+    background-color: #FFF;
+    color: #052838;
+}
+
+.myfooter__cta-input:disabled{
+    background:#D7DAE2;
+    border: none;
+    cursor: not-allowed;
+}
+
+.myfooter__cta-input::placeholder{
+    color: #999EAD;
+    font-size: 14px;
+    font-style: normal;
+}
 
 
+.myfooter__button{
+    display: flex;
+    height: 44px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    background: #052838;
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: Outfit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; 
+    border: none;
+    cursor: pointer;
+}
+.myfooter__button:hover{
+    background: #0C3D54;
+}
 
 
